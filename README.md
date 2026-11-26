@@ -1,6 +1,6 @@
 ### Hien To Minh
 
-Senior DevOps / Platform Engineer at [Menlo Research](https://menlo.ai). I build and run the infrastructure behind AI products: an on-prem OpenStack + Ceph private cloud with a Blackwell GPU platform, Kubernetes everywhere, and GitOps on top.
+Senior DevOps / Platform Engineer. I build and run the infrastructure behind AI products: an on-prem OpenStack + Ceph private cloud with a Blackwell GPU platform, Kubernetes everywhere, and GitOps on top.
 
 - **[Jan](https://github.com/janhq/jan)** (46k+ ★, 7.5M+ downloads): #7 all-time contributor. I own release engineering, CI/CD and signed cross-platform builds for macOS, Windows and Linux, plus the CUDA and Vulkan build pipelines for the llama.cpp-based inference engines.
 - **[Stratos](https://github.com/stratoscompute/stratos)**: our cloud control plane on OpenStack, with managed Kubernetes on Kamaji, managed databases, Ceph S3 and GPU quotas.
