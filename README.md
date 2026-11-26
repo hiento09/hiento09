@@ -1,38 +1,28 @@
-### Hien To
+### Hien To Minh
 
-Senior Infrastructure/DevOps engineer at [Menlo Research](https://menlo.ai). I work on the systems
-that sit underneath our research and product teams — hybrid cloud spanning on-prem
-OpenStack and Kubernetes, GPU clusters, and the major hyperscalers, all glued
-together with GitOps.
+Senior DevOps / Platform Engineer at [Menlo Research](https://menlo.ai). I build and run the infrastructure behind AI products: an on-prem OpenStack + Ceph private cloud with a Blackwell GPU platform, Kubernetes everywhere, and GitOps on top.
 
-Core contributor to [Jan](https://github.com/menloresearch/jan), an open-source
-local LLM desktop app. Mostly on release engineering, CI/CD, and the boring
-parts that make shipping reliable across macOS, Windows, and Linux.
+- **[Jan](https://github.com/janhq/jan)** (46k+ ★, 7.5M+ downloads): #7 all-time contributor. I own release engineering, CI/CD and signed cross-platform builds for macOS, Windows and Linux, plus the CUDA and Vulkan build pipelines for the llama.cpp-based inference engines.
+- **[Stratos](https://github.com/stratoscompute/stratos)**: our cloud control plane on OpenStack, with managed Kubernetes on Kamaji, managed databases, Ceph S3 and GPU quotas.
+- **OpenStack upstream contributor**: fixed production bugs in [Neutron (OVN) and Trove](https://review.opendev.org/q/owner:tominhhien97@gmail.com), one backported to three stable releases.
+- **[ProxCloud](https://github.com/mutex-solutions/proxcloud)** (side project): turns Proxmox VE into a multi-tenant private cloud with a self-service portal, usage billing and an API. Written in Go.
 
 ---
-
-**Currently working on**
-- Multi-tenant Kubernetes on bare metal (Kamaji + Cluster API)
-- GPU observability with DCGM, Prometheus, and Grafana
-- Keycloak / OIDC identity across our internal platform
-- Argo CD + Image Updater for everything that can be a Git commit
 
 **Tech I work with**
 
-- **Cloud:** AWS, GCP, Azure, and on-prem — wired together as one hybrid platform
-- **Orchestration:** Kubernetes (on-prem via CAPI/Kamaji, GKE/EKS/AKS), OpenStack (Kolla-Ansible), Proxmox
-- **GitOps & CI/CD:** Argo CD, Argo CD Image Updater, GitHub Actions, Helm, Kustomize, OCI registries
-- **Observability:** Prometheus, Grafana, Loki, Tempo, Pyroscope, DCGM for GPU
-- **Identity & access:** Keycloak, OIDC/SSO, Google Workspace integration, 1Password ESO
-- **Networking:** Cisco Nexus vPC, pfSense HA, Headscale/Tailscale, Cilium, Cloudflare (Workers, Access, Tunnels)
-- **Storage & data:** Ceph / Rook, TimescaleDB, PostgreSQL, Valkey/Redis, S3-compatible object stores
-- **Edge & realtime:** LiveKit/WebRTC, STUN/TURN, Cloudflare Workers
-- **Languages:** Go, Python, Bash, and a healthy amount of YAML
+- **Cloud:** OpenStack (Kolla-Ansible), Ceph / Rook, Proxmox, AWS, GCP, Azure, Cloudflare
+- **Kubernetes:** Kamaji, Cluster API, EKS / AKS / GKE, Cilium, KEDA, Helm, Argo CD
+- **IaC:** Terraform, Pulumi, Ansible
+- **CI/CD & release:** GitHub Actions (self-hosted fleets), codesign / notarize, NSIS, AppImage, Flatpak, Homebrew, winget
+- **AI & GPU:** llama.cpp, CUDA, Vulkan, TensorRT-LLM, GPUDirect P2P, DCGM
+- **Observability:** Prometheus, Grafana, Loki, Tempo, Pyroscope, Beyla eBPF
+- **Networking & identity:** Cisco Nexus vPC, pfSense HA, Headscale, Keycloak / OIDC
+- **Languages:** Go, Python, TypeScript, Bash, and a healthy amount of YAML
 
-**Open to chat about**
-Hybrid cloud architecture, running GPU workloads on-prem vs. in the cloud, 
-self-hosted observability and identity stacks, and homelab over-engineering.
+**Happy to chat about**
+Hybrid cloud, running GPU workloads on-prem vs. in the cloud, OpenStack in production, and making releases boring.
 
 ---
 
-📍 Hanoi, Vietnam · 📫 Reach me via [Linkedin](https://www.linkedin.com/in/hientm/)
+📍 Hanoi, Vietnam · [LinkedIn](https://www.linkedin.com/in/hientm/)
